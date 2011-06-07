@@ -1,0 +1,9 @@
+[2011-06-07 23:02:21] request.ERROR: No route found for "GET /" 
+[2011-06-07 23:02:21] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /usr/local/zend/apache2/htdocs/AirOS/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 90 
+[2011-06-07 23:02:21] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-07 23:09:39] request.ERROR: No route found for "GET /" 
+[2011-06-07 23:09:39] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /usr/local/zend/apache2/htdocs/AirOS/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 90 
+[2011-06-07 23:09:39] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-07 23:09:43] request.ERROR: No route found for "GET /" 
+[2011-06-07 23:09:43] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /usr/local/zend/apache2/htdocs/AirOS/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 90 
+[2011-06-07 23:09:43] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
