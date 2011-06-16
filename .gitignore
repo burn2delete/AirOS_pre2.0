@@ -3,4 +3,6 @@ app/bootstrap*
 app/cache/*
 app/logs/*
 build/
-vendor/
+.DS_Store
+.buildpath
+.project
