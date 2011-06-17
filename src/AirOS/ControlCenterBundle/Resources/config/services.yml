@@ -1,0 +1,7 @@
+parameters:
+    module_register.class:    AirOS\ControlCenterBundle\Service\ModuleRegister
+
+services:
+    module_register:
+        class:        %module_register.class%
+        arguments:    [@session]
