@@ -1,5 +1,6 @@
 <?php
 
+use AirOS\ControlCenterBundle;
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\ClassLoader\DebugUniversalClassLoader;
@@ -20,6 +21,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new AirOS\ControlCenterBundle\AirOSControlCenterBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

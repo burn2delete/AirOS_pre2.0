@@ -214,24 +214,6 @@ class Container implements ContainerInterface
     }
 }
 }
-namespace Symfony\Component\DependencyInjection
-{
-interface ContainerAwareInterface
-{
-    function setContainer(ContainerInterface $container = null);
-}
-}
-namespace Symfony\Component\DependencyInjection
-{
-class ContainerAware implements ContainerAwareInterface
-{
-    protected $container;
-    public function setContainer(ContainerInterface $container = null)
-    {
-        $this->container = $container;
-    }
-}
-}
 namespace Symfony\Component\HttpKernel\Bundle
 {
 use Symfony\Component\DependencyInjection\ContainerBuilder;
