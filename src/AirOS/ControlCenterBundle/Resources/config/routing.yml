@@ -1,0 +1,3 @@
+AirOSControlCenterBundle_homepage:
+    pattern:  /test1
+    defaults: { _controller: AirOSControlCenterBundle:Default:index }

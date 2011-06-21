@@ -1,0 +1,2 @@
+AirOSControlCenter:
+    resource: "@AirOSControlCenterBundle/Resources/config/routing.yml"

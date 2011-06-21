@@ -2,6 +2,7 @@
 namespace AirOS\ControlCenterBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
+use Symfony\Component\HttpFoundation\Session;
 
 class InitAdminDesktopEvent extends Event
 {
