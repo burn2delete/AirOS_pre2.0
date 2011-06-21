@@ -2,6 +2,7 @@ web/bundles/
 app/bootstrap*
 app/cache/*
 app/logs/*
+app/.DS_Store
 build/
 .DS_Store
 .buildpath
