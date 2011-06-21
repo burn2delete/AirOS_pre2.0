@@ -1,6 +1,0 @@
-parameters:
-    controlcenter_dispatcher.class:      AirOS\ControlCenterBundle\Service\Dispatcher
-
-services:
-    controlcenter_dispatcher:
-        class:        %controlcenter_dispatcher.class%
