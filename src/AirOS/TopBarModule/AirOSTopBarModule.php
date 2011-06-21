@@ -2,13 +2,29 @@
 
 namespace AirOS\TopBarModule;
 
-use AirOS\ControlCenterBundle\Entity\Module;
-use AirOS\TopBarModule\Subscriber\DesktopSubscriber;
+use AirOS\Module\Module;
+use AirOS\ControlCenterBundle\Event\InitAdminDesktopEvent;
+use Symfony\Component\HttpFoundation\Session;
 
 class AirOSTopBarModule extends Module
 {
-	public function getSubscriberClass()
+	static public function getSubscribedEvents()
 	{
-		return new DesktopSubscriber();
+		return array(
+            'admin_desktop.init' => 'onAdminDesktopInit',
+            'user_desktop.init'   => 'onUserDesktopInit',
+        );
+
 	}
+
+    public function onAdminDesktopInit(InitAdminDesktopEvent  $event)
+    {
+    	$session = $event->getSession();
+    	$session->set('test1', 'im a test value!');
+    }
+
+    public function onUserDesktopInit(InitUserDesktopEvent $event)
+    {
+    }
+
 }

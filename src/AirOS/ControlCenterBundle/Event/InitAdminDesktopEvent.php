@@ -18,6 +18,11 @@ class InitAdminDesktopEvent extends Event
 		}
 	}
 
+	public function getSession()
+	{
+		return $this->session;
+	}
+
 	public function setModule($moduleName, $info = array())
 	{
 		//todo: need to check vars to make sure they are of correct type
