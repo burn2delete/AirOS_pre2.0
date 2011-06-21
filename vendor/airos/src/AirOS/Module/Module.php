@@ -12,7 +12,6 @@ class Module extends Bundle implements EventSubscriberInterface
 
 	public function __construct()
 	{
-		$this->dispatcher = new EventDispatcher();
 		$this->dispatcher->addSubscriber($this, $this->getPriority());
 	}
 

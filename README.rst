@@ -1,11 +1,12 @@
-Symfony Standard Edition
+AirOS
 ========================
 
 What's inside?
 --------------
 
-Symfony Standard Edition comes pre-configured with the following bundles:
-
+AirOS comes pre-configured with the following bundles:
+* AirOSControlCenterBundle
+* AirOSTopBarModule
 * FrameworkBundle
 * SensioFrameworkExtraBundle
 * DoctrineBundle

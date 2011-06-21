@@ -1,7 +1,9 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
-
+    airos_controlcenter_bundle:
+        resource: @AirOSControlCenterBundle/Resources/config/services.yml
+        
 framework:
     secret:          %secret%
     charset:         UTF-8
