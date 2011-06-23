@@ -1,0 +1,9 @@
+services:
+    kernel.listener.admin_desktop.init:
+        class: AirOS\TopBarModule\Listeners\InitAdminDesktopListener
+        tags:
+            - { name: kernel.event_listener, event: admin_desktop.init, method: onInitAdminDesktop}
+    kernel.listener.user_desktop.init:
+        class: AirOS\TopBarModule\Listeners\InitUserDesktopListener
+        tags:
+            - { name: kernel.event_listener, event: user_desktop.init, method: onInitUserDesktop}

@@ -1,11 +1,11 @@
 <?php
 
-namespace AirOS\TopBarModule;
+namespace AirOS\ModuleInstallerBundle;
 
 use AirOS\ControlCenterBundle\Event\InitAdminDesktopEvent;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AirOSTopBarModule extends Bundle
+class AirOSModuleInstallerBundle extends Bundle
 {
 }
 ?>

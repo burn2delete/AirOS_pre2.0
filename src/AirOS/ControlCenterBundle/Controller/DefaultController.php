@@ -17,12 +17,11 @@ class DefaultController extends Controller
 
     public function indexAction()
     {
-    	$TopBarModule = new AirOSTopBarModule();
     	$this->session = $this->getRequest()->getSession();
     	$this->event = new InitAdminDesktopEvent($this->session);
-    	$this->dispatcher = $TopBarModule->getDispatcher();
+    	$this->dispatcher = $this->container->get('event_dispatcher');
     	$this->dispatcher->dispatch(ControlCenterEvents::InitAdminDesktop, $this->event);
-        return new Response('<html><body>Hello World!'. $this->session->get('test1') .'</body></html>');
+        return new Response('<html><body>Hello World!'. $this->session->get('test2') .'</body></html>');
     }
 }
 ?>
