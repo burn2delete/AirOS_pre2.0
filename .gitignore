@@ -10,3 +10,4 @@ build/
 .settings
 *.orig
 *.cache
+*.php.cache
