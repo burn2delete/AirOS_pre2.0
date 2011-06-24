@@ -1,0 +1,3 @@
+[submodule "src/AirOS/I18nRoutingBundle"]
+	path = src/AirOS/I18nRoutingBundle
+	url = git@github.com:flyboarder/I18nRoutingBundle.git
