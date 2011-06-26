@@ -1,3 +1,4 @@
 AirOSControlCenterBundle_homepage:
-    pattern:  /test1
+    locales:  { en: /test1 }
     defaults: { _controller: AirOSControlCenterBundle:Default:index }
+    type: db

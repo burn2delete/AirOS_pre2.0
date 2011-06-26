@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new AirOS\ControlCenterBundle\AirOSControlCenterBundle(),
             new AirOS\TopBarModule\AirOSTopBarModule(),
+            new AirOS\I18nRoutingBundle\AirOSI18nRoutingBundle(),
             );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
